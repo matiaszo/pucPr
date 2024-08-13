@@ -4,6 +4,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Poo.Exercicio_triangulo.Exercicio_biblioteca.Main",
+            "projectName": "pucPr_8dc9ccd2"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Poo.Exercicio_triangulo.Main",
             "projectName": "pucPr_8dc9ccd2"
         },

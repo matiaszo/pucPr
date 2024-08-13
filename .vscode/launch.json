@@ -1,32 +1,51 @@
 {
-    "configurations": [
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Poo.Exercicio_triangulo.Exercicio_biblioteca.Main",
+      "projectName": "pucPr_8dc9ccd2"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Poo.Exercicio_triangulo.Main",
+      "projectName": "pucPr_8dc9ccd2"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Poo.Main",
+      "projectName": "pucPr_8dc9ccd2"
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Aluno/Desktop/Folder/pucPr",
+      "program": "c:/Users/Aluno/Desktop/Folder/pucPr/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
         {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "Poo.Exercicio_triangulo.Exercicio_biblioteca.Main",
-            "projectName": "pucPr_8dc9ccd2"
-        },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "Poo.Exercicio_triangulo.Main",
-            "projectName": "pucPr_8dc9ccd2"
-        },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "Poo.Main",
-            "projectName": "pucPr_8dc9ccd2"
-        },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         }
-    ]
+      ]
+    }
+  ]
 }

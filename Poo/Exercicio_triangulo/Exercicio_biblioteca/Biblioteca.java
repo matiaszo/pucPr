@@ -1,4 +1,4 @@
-package Poo.Exercicio_triangulo.Exercicio_biblioteca;
+package Poo.Exercicio_triangulo.exercicio_biblioteca;
 
 public class Biblioteca 
 {

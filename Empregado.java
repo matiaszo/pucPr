@@ -19,16 +19,4 @@ public class Empregado{
    public int getAge() {return this.age;}
    private void setAge(int age) {this.age = age;} 
 
-   
-   // void print()
-   // {
-   //    if (is_accepted_cargo())
-   // }
-   
-   // boolean is_accepted_cargo()
-   // {
-   //    if(this.cargo == "G" || this.cargo == "D" || this.cargo == "A")
-   //       return true;
-   //    return false;
-   // }
 }

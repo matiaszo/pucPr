@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ListaEmpregados",
+      "request": "launch",
+      "mainClass": "ListaEmpregados",
+      "projectName": "pucPr_4380012a"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Poo.Exercicio_triangulo.Exercicio_biblioteca.Main",
